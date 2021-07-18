@@ -1,4 +1,6 @@
-import React, {Component} from "react"
+import React, { Component } from "react"
+import { Link } from 'react-router-dom'
+
 import styles from "../styles/home/navOther.module.scss";
 import logo from "../../assets/images/klas-logo.png"
 
@@ -9,12 +11,12 @@ class Navbar extends Component{
             <div>
                 <nav className={styles.navbar}>
                     <div className={styles.navInner}>
-                        <div className={styles.navLogo}>
+                        <Link to="/" className={styles.navLogo}>
                             <img src={logo} alt="" />
                             <h1>Klas.</h1>
-                        </div>
+                        </Link>
                         
-                        <a href="0#" className={styles.get}>
+                        <a href="https://web.elpisacademy.us/#/" className={styles.get}>
                             get started
                         </a>
                     </div>

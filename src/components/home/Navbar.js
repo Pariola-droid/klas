@@ -1,4 +1,6 @@
 import React, {Component} from "react"
+import { Link } from 'react-router-dom'
+
 import styles from "../styles/home/navbar.module.scss";
 import logo from "../../assets/images/klas-logo.png"
 
@@ -9,10 +11,10 @@ class Navbar extends Component{
             <div>
                 <nav className={styles.navbar}>
                     <div className={styles.navInner}>
-                        <div className={styles.navLogo}>
+                        <Link to="/" className={styles.navLogo}>
                             <img src={logo} alt="" />
                             <h1>Klas</h1>
-                        </div>
+                        </Link>
                         
                     </div>
                 </nav>

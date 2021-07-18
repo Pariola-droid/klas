@@ -20,9 +20,9 @@ class KlasHome extends Component{
                                 A Remote Teaching Tool For Online Classes
                             </h2>
                             <p>
-                                Run classes on Zoom with built-in support for online payments and student management. Ideal for online educators and creators in Africa.
+                                Run engaging online classes with built-in support for payment processing and student management. Ideal for online educators and creators in Africa.
                             </p>
-                            <a href="#0">
+                            <a href="https://web.elpisacademy.us/#/">
                                 Get started
                             </a>
                         </div>
@@ -51,7 +51,7 @@ class KlasHome extends Component{
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
                                 </svg>
                                 <p>
-                                    Create your own<br /> online school and list your classes
+                                    Plan and create your<br />class.
                                 </p>
                             </div>                            
                         </div>
@@ -69,7 +69,7 @@ class KlasHome extends Component{
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
                                 </svg>
                                 <p>
-                                    Share your class link and start receiving bookings instantly
+                                    Share the link to your class and get bookings instantly.
                                 </p>
                             </div>                            
                         </div>
@@ -87,7 +87,7 @@ class KlasHome extends Component{
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                                 </svg>
                                 <p>
-                                    Host a great class on<br /> Zoom 
+                                    Host a great class online<br /> class.
                                 </p>
                             </div>                   
                         </div>
@@ -98,7 +98,7 @@ class KlasHome extends Component{
                     <div className={styles.Owrap}>
                         <div className={styles.Otext}>
                             <p>
-                                why elpis
+                                why Klas
                             </p>
                             <h2>
                                 Remote teaching made easy.
@@ -131,7 +131,7 @@ class KlasHome extends Component{
                                         Advanced<br /> instructor's dashboard
                                     </h3>
                                     <p>
-                                        Track your bookings, earnings and engagements, manage your classes and optimize the performance of your online school
+                                        Track your bookings, earnings and engagements, manage your classes and optimize the performance of your classes.
                                     </p>
                                 </div>
                             </div>
@@ -146,7 +146,7 @@ class KlasHome extends Component{
                                         Secure<br /> online payments
                                     </h3>
                                     <p>
-                                        Accept payments online with Paystack or Stripe. Elpis only supports NGN and USD for now, but we plan to support more currencies as we expand across Africa.
+                                        Accept payments online with Paystack or Stripe. Klas only supports NGN and USD for now, but we plan to support more currencies as we expand globally.
                                     </p>
                                 </div>
                             </div>
@@ -161,7 +161,7 @@ class KlasHome extends Component{
                                         Access to<br /> our community/resources
                                     </h3>
                                     <p>
-                                        Connect with other instructors in our community and access valuable resources to help you launch & scale your own online school.
+                                        Connect with other instructors in our community and access valuable resources to help you host engaging online classes.
                                     </p>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@ class KlasHome extends Component{
                     <div className={styles.Mwrap}>
                         <div className={styles.Mtext}>
                             <h2>
-                                Everything you need to run online classes in Africa.
+                                Everything you need to run online classes efficiently.
                             </h2>
                         </div>
 
@@ -314,14 +314,14 @@ class KlasHome extends Component{
                                 Try Klas Now!
                             </p>
                             <h2>
-                                Start accepting payments in just 30 minutes.
+                                Start monetizing your knowledge with Klas.
                             </h2>
                         </div>
 
                         <div className={styles.ctaLink}>
-                            <Link to="/">
+                            <a href="https://web.elpisacademy.us/#/">
                                 get started
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </section>                

@@ -21,7 +21,7 @@ class Navbar extends Component{
                                 </span>
 
                                 <p>
-                                    Run classes on Zoom with built-in support for online payments and student management. Ideal for online educators and creators in Africa.
+                                    Remote teaching platform for creating engaging online classes anywhere, anytime. it's free and easy to use.
                                 </p>
                             </div>
 

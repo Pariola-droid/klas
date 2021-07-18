@@ -24,7 +24,7 @@ class Faq extends Component{
                         <div className={styles.faq}>
                             <div className={styles.faqHead}>
                                 <h4>
-                                    Who can use Elpis?
+                                    Who can use Klas?
                                 </h4>
 
                                 <ion-icon name="chevron-down-outline"></ion-icon>
@@ -40,7 +40,7 @@ class Faq extends Component{
                         <div className={styles.faq}>
                             <div className={styles.faqHead}>
                                 <h4>
-                                    How are live classes hosted on Elpis?
+                                    How are live classes hosted on Klas?
                                 </h4>
 
                                 <ion-icon name="chevron-down-outline"></ion-icon>
@@ -88,7 +88,7 @@ class Faq extends Component{
                         <div className={styles.faq}>
                             <div className={styles.faqHead}>
                                 <h4>
-                                    What can you use Elpis for?
+                                    What can you use Klas for?
                                 </h4>
 
                                 <ion-icon name="chevron-down-outline"></ion-icon>
@@ -96,7 +96,7 @@ class Faq extends Component{
 
                             <div className={styles.faqPara}>
                                  <p>
-                                    You can use Elpis to host any type of live online program such as live online classes, group coaching, etc. We specialize in single or recurring classes, but not cohorts yet.
+                                    You can use Klas to host any type of live online program such as live online classes, group coaching, etc. We specialize in single or recurring classes, but not cohorts yet.
                                 </p>
                             </div>
                         </div>
