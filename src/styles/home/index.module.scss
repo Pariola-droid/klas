@@ -524,13 +524,12 @@ footer {
                 & .Flist {
 
                     & li {
-                        text-transform: capitalize;
                         font-size: .8rem;
                         padding-top: 0.5rem; 
                         padding-bottom: 0.5rem;
 
                         & a {
-                            text-transform: lowercase;
+                            text-transform: capitalize;
                             color: #777777;
                         }
                     }
@@ -564,6 +563,18 @@ footer {
                         font-size: .82rem;
                         text-align: left;
                         line-height: 1.75rem;
+                    }
+                }
+
+                &:nth-child(3) {
+                     & .Flist {
+
+                        & li {
+
+                            & a {
+                                text-transform: lowercase;
+                            }
+                        }
                     }
                 }
 

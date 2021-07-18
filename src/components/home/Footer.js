@@ -29,8 +29,8 @@ class Navbar extends Component{
                                 </h3>
 
                                 <ul className={styles.Flist}>
-                                    <li>Term of use</li>
-                                    <li>privacy policies</li>
+                                    <li><a href="#0">Term of use</a></li>
+                                    <li><a href="#0">privacy policies</a></li>
                                 </ul>
                             </div>
 
@@ -50,8 +50,8 @@ class Navbar extends Component{
                                 </h3>
 
                                 <ul className={styles.Flist}>
-                                    <li>FAQs</li>
-                                    <li>Blogs</li>
+                                    <li><a href="#0">FAQs</a></li>
+                                    <li><a href="#0">Blogs</a></li>
                                 </ul>
                             </div>                           
 
