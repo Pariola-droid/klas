@@ -80,7 +80,7 @@
 }
 
 .features {
-    height: 280px;
+    height: 340px;
     width: 100%;
     // background-color: #f5f5fa;
     display: grid;
@@ -91,7 +91,7 @@
 
     & .Fwrap {
         width: 950px;
-        height: 250px;
+        height: 320px;
         background-color: #fff;
         position: absolute;
         z-index: 99;
@@ -102,23 +102,22 @@
         padding: 0 2rem;
         border-radius: 30px;
         box-shadow: 5px 5px 20px rgba(0, 0, 0, .2);
+        padding-top: 4rem;
 
         & .Ftag {
-            height: 80px;
-            width: 80px;
-            background-color: #15159a54;
+            height: auto;
+            width: 100%;
             position: absolute;
             z-index: 9999;
-            bottom: -30px;
-            right: -30px;
-            border-radius: 100%;
-            box-shadow: 5px 5px 10px rgba(0, 0, 0, .1);
+            top: 40px;
+            left: 0px;
             display: grid;
             place-items: center;
             font-weight: 600;
             text-align: center;
-            color: #f5f5fa;
-            font-size: .9rem;
+            color: #000;
+            font-size: 1.8rem;
+            text-transform: capitalize;
         }
 
         & .F {
@@ -342,21 +341,22 @@
 
 .pricing {
     width: 100%;
-    height: auto;
+    height: 700px;
     background-color: #f5f5fa;
     display: grid;
     place-items: center;
+    position: relative;
 
     & .pWrap {
         height: auto;
         width: 1100px;
-        margin-bottom: 8rem;
+        margin-bottom: 4rem;
 
         .pText {
             max-width: 700px;
             color: #2c2c2c;
             margin: 0 auto;
-            margin-top: 5rem;
+            margin-top: 4rem;
 
             & h2 {
                 font-size: 3.8rem;
@@ -383,7 +383,7 @@
 
             & .priceH {
                 width: 100%;
-                border-bottom: 1px solid #000;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.3);
                 height: fit-content;
                 margin-top: 4rem;
                 
@@ -401,30 +401,27 @@
             }
 
             & ul {
+                height: auto;
+                width: 400px;
+                background-color: #fff;
+                padding: 1rem 0;
+                border-radius: 20px;
+                margin: 1rem auto;
+                margin-top: 2rem;
+                // position: absolute;
 
                 & li {
-                    border-bottom: 1px solid #000;
-                    padding: 0 4rem;
-                    height: 180px;
-                    font-size: 1.5rem;
+                    margin: 0 auto;
+                    font-size: .9rem;
                     text-align: center;
-                    font-weight: 700;
+                    font-weight: 600;
                     display: flex;
                     align-items: center;
-                    justify-content: space-between;
-
-                    & svg {
-                        height: 100px;
-                        color: $EBlue;
-                        opacity: .2;
-                        position: relative;
-                        text-align: left;
-                    }
+                    justify-content: center;
 
                     & P {
-                        text-align: right;
+                        text-align: center;
                         max-width: 300px;
-                        line-height: 35px;
                     }
                 }
             }
@@ -433,10 +430,175 @@
     }
 }
 
+.cta {
+    height: 600px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+    & .ctaWrap {
+        width: 900px;
+        height: 300px;
+        background-color: #f5f5fa;
+        margin-bottom: -4rem;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 3.5rem;
+        padding-top: 2rem;
+
+        & .ctaText {
+            max-width: 350px;
+            color: #2c2c2c; 
+
+            & p {
+                color: $EBlue;
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 1rem;
+                text-transform: capitalize;
+                font-weight: 600;
+                letter-spacing: 2px;
+            }
+
+            & h2 {
+                font-size: 2rem;
+                line-height: 1.4;
+                margin-top: -.5rem;
+            }
+        }
+
+        & .ctaLink {
+            width: 300px;
+
+            a {
+                padding: 1rem 2.2rem;
+                background-color: $EBlue;
+                border-radius: 10px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #fff;
+            }
+        }
+    }
+}
+
 footer {
-    height: 400px;
+    height: auto;
     width: 100%;
     background-color: #000;
-    color: white;
-    text-align: center;
+    color: #777777;
+    font-weight: 400;
+    padding-top: 110px;
+    padding-bottom: 20px;
+
+    .footWrap {
+        height: 410.062px;
+        width: 1086.690px;
+        // background-color: #f5f5f5;
+        margin: 0 auto;
+
+        & .footItem {
+            width: 100%;
+            height: 286.344px;
+            padding-bottom: 85.375px;
+            border-bottom: .5px solid #2d3748;
+            // background-color: #777777;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            text-align: left;
+
+            & .Item {
+                width: 174px;
+                height: 185.688px;
+                // background-color: #ce4949;
+
+                & .iHead {
+                    margin-bottom: 2.5rem;
+                    font-size: .875rem !important;
+                    font-weight: 700 !important;
+                    color: #fff;
+                }
+
+                & .Flist {
+
+                    & li {
+                        text-transform: capitalize;
+                        font-size: .8rem;
+                        padding-top: 0.5rem; 
+                        padding-bottom: 0.5rem;
+
+                        & a {
+                            text-transform: lowercase;
+                            color: #777777;
+                        }
+                    }
+                }
+
+                &:nth-child(1) {
+                    height: 286.344px;
+                    width: 305.312px;
+                    margin-right: 3rem;
+                    margin-top: -1rem;
+                    // background-color: #ce4949;
+
+                    & span {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        margin-bottom: 35.573px;
+                    
+                        & img {
+                            height: 57px;
+                            margin-right: .6rem;
+                        }
+
+                         & h1 {                
+                            font-size: 1.8rem;
+                            color: #fff;
+                        }
+                    }  
+                    
+                    & p {
+                        font-size: .82rem;
+                        text-align: left;
+                        line-height: 1.75rem;
+                    }
+                }
+
+                &:nth-child(5) {
+
+                    & .Flist {
+                        display: flex;
+                        align-items: center;
+
+                    & li {         
+                        &:not(:last-of-type) {
+                            margin-right: 1rem;
+                        }               
+
+                        & a {
+                            font-size: 20px;
+                            color: #777777;
+                            
+                        }
+                    }
+                }
+                }
+            }
+        }
+
+        & .footCopy {
+            padding-top: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.75rem;
+
+            & a {
+                color: #777777;
+            }
+        }
+    }
 }
