@@ -87,6 +87,8 @@
     place-items: center;
     position: relative;
 
+
+
     & .Fwrap {
         width: 950px;
         height: 250px;
@@ -101,6 +103,24 @@
         border-radius: 30px;
         box-shadow: 5px 5px 20px rgba(0, 0, 0, .2);
 
+        & .Ftag {
+            height: 80px;
+            width: 80px;
+            background-color: #15159a54;
+            position: absolute;
+            z-index: 9999;
+            bottom: -30px;
+            right: -30px;
+            border-radius: 100%;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, .1);
+            display: grid;
+            place-items: center;
+            font-weight: 600;
+            text-align: center;
+            color: #f5f5fa;
+            font-size: .9rem;
+        }
+
         & .F {
             width: 260px;
             height: 250px;
@@ -110,40 +130,54 @@
             color: #2c2c2c;
             
             // border-left: 2px solid $EBlue;
-            
 
-            & .border {
-                height: 60%;
-                background-color: $EBlue;
-                width: 3px;
-                margin-bottom: 2rem;
-                position: relative;
-                display: grid;
-                place-items: center;
-                opacity: .8;
-                
-
-                & .circle {
-                    width: 20px;
-                    height: 20px;
-                    border: 2px solid $EBlue;
-                    z-index: 99;
-                    position: absolute;
-                    top: 0;
-                    border-radius: 100%;
-                    background-color: #f5f5f5;
-                    display: grid;
-                    place-items: center;
-
-                        & .dot {
-                        width: 8px;
-                        height: 8px; 
-                        border-radius: 100%;
-                        background-color: $EBlue;
-                        opacity: .8;
-                    }
+            &:nth-child(1),
+            &:nth-child(2) {
+                    
+                & .border {
+                    display: none;
                 }
             }
+
+            & .border {
+                height: 70%;
+                background-color: #646363;
+                width: 1px;
+            }
+            
+
+            // & .border {
+            //     height: 60%;
+            //     background-color: $EBlue;
+            //     width: 3px;
+            //     margin-bottom: 2rem;
+            //     position: relative;
+            //     display: grid;
+            //     place-items: center;
+            //     opacity: .8;                
+                
+
+            //     & .circle {
+            //         width: 20px;
+            //         height: 20px;
+            //         border: 2px solid $EBlue;
+            //         z-index: 99;
+            //         position: absolute;
+            //         top: 0;
+            //         border-radius: 100%;
+            //         background-color: #f5f5f5;
+            //         display: grid;
+            //         place-items: center;
+
+            //             & .dot {
+            //             width: 8px;
+            //             height: 8px; 
+            //             border-radius: 100%;
+            //             background-color: $EBlue;
+            //             opacity: .8;
+            //         }
+            //     }
+            // }
 
             & .Fright {
                 transform: scale(0.8);
@@ -361,7 +395,7 @@
                 & p {
                     font-size: 1.5rem;
                     text-align: center;
-                    margin-top: -1rem;
+                    margin-top: .6rem;
                     word-spacing: 2px;
                 }
             }

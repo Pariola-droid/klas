@@ -28,8 +28,13 @@ class KlasHome extends Component{
                     </div>
                 </header>
 
-                <section className={styles.features}>
+                <section className={styles.features}>        
+                    
                     <div className={styles.Fwrap}>
+                        <div className={styles.Ftag}>
+                            how it works
+                        </div>
+
                         <div className={styles.F}>
                             <span className={styles.border}>
                                 <span className={styles.circle}>
