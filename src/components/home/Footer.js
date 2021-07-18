@@ -1,4 +1,6 @@
-import React, {Component} from "react"
+import React, { Component } from "react"
+import { Link } from 'react-router-dom'
+
 import styles from "../../styles/home/index.module.scss";
 import logo from "../../assets/images/klas-logo.png"
 
@@ -50,7 +52,7 @@ class Navbar extends Component{
                                 </h3>
 
                                 <ul className={styles.Flist}>
-                                    <li><a href="#0">FAQs</a></li>
+                                    <li><Link to="/faq">FAQs</Link></li>
                                     <li><a href="#0">Blogs</a></li>
                                 </ul>
                             </div>                           

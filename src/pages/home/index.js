@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom'
+
 import Navbar from '../../components/home/Navbar'
 import Footer from '../../components/home/Footer'
 import boardIMG from "../../assets/images/elpis-1.png"
@@ -317,9 +319,9 @@ class KlasHome extends Component{
                         </div>
 
                         <div className={styles.ctaLink}>
-                            <a href="#0">
+                            <Link to="/">
                                 get started
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </section>                

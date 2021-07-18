@@ -1,5 +1,6 @@
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import KlasPage from "./pages/home/index";
+import Faq from "./pages/faq/index";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Switch>
         
         <Route path="/" exact component={KlasPage} />
+        <Route path="/faq" exact component={Faq} />
 
       </Switch>
     </Router>
