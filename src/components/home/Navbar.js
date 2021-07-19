@@ -13,7 +13,7 @@ class Navbar extends Component{
                     <div className={styles.navInner}>
                         <Link to="/" className={styles.navLogo}>
                             <img src={logo} alt="" />
-                            <h1>Klas</h1>
+                            <h1>Klas.</h1>
                         </Link>
                         
                     </div>

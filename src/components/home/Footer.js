@@ -1,10 +1,10 @@
 import React, { Component } from "react"
 import { Link } from 'react-router-dom'
 
-import styles from "../../styles/home/index.module.scss";
+import styles from "../styles/home/footer.module.scss";
 import logo from "../../assets/images/klas-logo.png"
 
-class Navbar extends Component{   
+class Footer extends Component{   
 
     render(){
         return(
@@ -90,4 +90,4 @@ class Navbar extends Component{
     }
 }
 
-export default Navbar;
+export default Footer;
