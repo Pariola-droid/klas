@@ -829,8 +829,7 @@
             }
 
             & .ctaLink {
-                width: auto;
-                margin-right: auto;
+                max-width: 300px;
                 margin-top: 2rem;
 
                 a {
