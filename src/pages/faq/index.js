@@ -32,7 +32,7 @@ class Faq extends Component{
 
                             <div className={styles.faqPara}>
                                 <p>
-                                    Online educators and creators in Africa
+                                    Anyone looking to monetize their knowledge through simple remote experiences.
                                 </p>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ class Faq extends Component{
                         <div className={styles.faq}>
                             <div className={styles.faqHead}>
                                 <h4>
-                                    How are live classes hosted on Klas?
+                                    What if i want to host a paid class?
                                 </h4>
 
                                 <ion-icon name="chevron-down-outline"></ion-icon>
@@ -48,7 +48,7 @@ class Faq extends Component{
 
                             <div className={styles.faqPara}>
                                 <p>
-                                    We fully integrated with Zoom, but you’re able to link to any third-party conferencing link that you would like.
+                                    Hosting paid classes is currently only available in Nigeria, We would be expanding globally in 2021.
                                 </p>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ class Faq extends Component{
                         <div className={styles.faq}>
                             <div className={styles.faqHead}>
                                 <h4>
-                                    What is a live online learning program?
+                                    How much does it cost to use Klas?
                                 </h4>
 
                                 <ion-icon name="chevron-down-outline"></ion-icon>
@@ -64,7 +64,7 @@ class Faq extends Component{
 
                             <div className={styles.faqPara}>
                                 <p>
-                                    A live online learning program is any educational program that is delivered in a real-time, virtual environment.
+                                    It's completely free to use. We charge nothing to create a free class, however, if you're hosting paid classes , we charge a percentage of each booking a s transaction fee. check out our pricing page.
                                 </p>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ class Faq extends Component{
                         <div className={styles.faq}>
                             <div className={styles.faqHead}>
                                 <h4>
-                                    Differences - an online course & a live online learning program?
+                                    What is a content library?
                                 </h4>
 
                                 <ion-icon name="chevron-down-outline"></ion-icon>
@@ -80,7 +80,7 @@ class Faq extends Component{
 
                             <div className={styles.faqPara}>
                                 <p>
-                                    Online course require students to go through hours of pre-recorded videos on their own time. Live-online programs come built-in with live sessions and a community. We’ve found that these live programs are 10x engagements and earn 3x more revenue than traditional online courses.
+                                   Our content library helps you to deliver other forms of educational contents like e-books, courses, etc. The best part is that you can monetize it.
                                 </p>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ class Faq extends Component{
                         <div className={styles.faq}>
                             <div className={styles.faqHead}>
                                 <h4>
-                                    What can you use Klas for?
+                                    Why does Klas cost more than Paystack?
                                 </h4>
 
                                 <ion-icon name="chevron-down-outline"></ion-icon>
@@ -96,7 +96,7 @@ class Faq extends Component{
 
                             <div className={styles.faqPara}>
                                  <p>
-                                    You can use Klas to host any type of live online program such as live online classes, group coaching, etc. We specialize in single or recurring classes, but not cohorts yet.
+                                    We charge a little higher than payment gateways because we offer more value to online educators and creators. Aside for monetizing the classes, we offer tools to manage students, zoom integration, email marketing, data collection and a lot of third-party integrations all in one platform. We also remit part of the fees to Paystack (payment processor), so their fee is included in our transaction processing fees
                                 </p>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ class Faq extends Component{
                         <div className={styles.faq}>
                             <div className={styles.faqHead}>
                                 <h4>
-                                    Can I customize the experience?
+                                     What is Klas pro?
                                 </h4>
 
                                 <ion-icon name="chevron-down-outline"></ion-icon>
@@ -112,7 +112,8 @@ class Faq extends Component{
 
                             <div className={styles.faqPara}>
                                  <p>
-                                    Yes, but only pro account users can fully white-label their experience with a custom domain, color scheme, and branding for a fee of $20/month.
+                                    As a premium user, you get to fully white-label the experience with custom domains, color scheme and branding, CRM integration, community forum and lower transaction fee all for 80 USD per month. Coming soon!
+
                                 </p>
                             </div>
                         </div>
@@ -120,7 +121,7 @@ class Faq extends Component{
                         <div className={styles.faq}>
                             <div className={styles.faqHead}>
                                 <h4>
-                                    How much does it cost?
+                                    How do I get my money from paid bookings?
                                 </h4>
 
                                 <ion-icon name="chevron-down-outline"></ion-icon>
@@ -128,7 +129,7 @@ class Faq extends Component{
 
                             <div className={styles.faqPara}>
                                  <p>
-                                     It’s completely free to use, we only charge 10% commission on every booking.
+                                     You need to link a bank account to your profile to accept bookings. We'll deposit into that bank account weekly.
                                 </p>
                             </div>
                         </div>                                   
