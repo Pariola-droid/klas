@@ -35,14 +35,13 @@
     }
 }
 
-@media (max-width:800px) {
+@media (max-width:1200px) {
 
     .navbar {
 
         & .navInner {
-            width: 100%;
+            width: 90%;
             height: 100%;
-            padding: 0 1.3rem;
 
             & .navLogo {
                 display: flex;
@@ -62,6 +61,21 @@
                     color: #fff;
                 }
             }
+        }
+    }
+
+}
+
+
+@media (max-width:800px) {
+
+    .navbar {
+
+        & .navInner {     
+            width: 100%;
+            height: 100%;
+            padding: 0 1.3rem;      
+            
         }
     }
 

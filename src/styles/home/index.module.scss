@@ -505,6 +505,61 @@
 }
 
 
+@media (max-width:1200px) {
+
+    .header {
+
+    & .Hwrap {
+        width: 90%;
+
+        & img {
+            position: absolute;
+            right: -700px;
+        }
+    }
+    }
+
+    
+
+}
+
+@media (max-width:1050px) {
+
+    .header {
+
+        & .Hwrap {
+            width: 90%;
+
+            & .Htext {
+                max-width: 500px;
+                transform: scale(0.9);
+            }
+
+            & img {
+                right: -720px;
+            }
+        }
+    }
+
+
+
+}
+
+@media (max-width:1000px) {
+
+    .header {
+
+    & .Hwrap {
+        width: 90%;
+
+        & img {
+            display: none;
+        }
+    }
+    }
+    
+}
+
 
 @media (max-width:800px) {
     .header {
