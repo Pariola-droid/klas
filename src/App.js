@@ -1,4 +1,4 @@
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import KlasPage from "./pages/home/index";
 import Faq from "./pages/faq/index";
 

@@ -50,9 +50,9 @@
 
 // responsiveness
 
-@media (max-width:550px) {
 
-    .navbar {
+@media (max-width:1200px)  {
+      .navbar {
 
     & .navInner {
         width: 100%;
@@ -60,7 +60,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 1.3rem;
+        padding: 0 1.5rem;
 
         & .navLogo {
             margin-top: .2rem;
@@ -77,6 +77,21 @@
                 color: #000;
             }
         }
+
+        & .get {
+            transform: scale(0.95);
+        }
+    }
+}
+}
+
+
+@media (max-width:800px) {
+
+    .navbar {
+
+    & .navInner {  
+        padding: 0 1.3rem;     
 
         & .get {
             transform: scale(0.9);

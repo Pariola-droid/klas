@@ -78,7 +78,7 @@ class Footer extends Component{
                                 Copyright © 2021  •  All Rights Reserved
                             </p>
 
-                            <a href="#0">
+                            <a href="#klas">
                                 Back to Top
                             </a>
                         </div>

@@ -32,3 +32,10 @@ input[type=number]::-webkit-inner-spin-button {
   display: none;
 }
 
+a {
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    -webkit-transition-property: opacity, color, background-color, -webkit-transform, border;
+    -webkit-transition-property: opacity, color, background-color, transform, border;
+    transition-property: opacity, color, background-color, transform, border;
+}
